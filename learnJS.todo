@@ -1,0 +1,24 @@
+Learn:
+  ☐ Arrow function (why??!!!!)
+  ☐ Function Expressions
+  ☐ Context bind
+  ☐ bind, apply, call
+  ☐ Closure
+  ☐ Currying function
+  ☐ async await
+  ☐ Promise
+  ☐ strict mode
+  ☐ ! of null, undefined, 0, 1, NaN, string, string as a number, empty string, object and {}
+  ✔ !! operator @done(21-07-04 21:11)
+  ☐ setInverval and setTimeout with example : https://javascript.info/settimeout-setinterval
+     Try:
+      ☐ clearTimeout for nested setTimeout
+      ☐ verify actual delay between executions for setTimeout and setInterval
+
+Javascript.info topics:
+  ✔ An Introduction @done(21-07-09 09:22)
+  ✔ Javascript Fundamentals @done(21-07-09 09:22)
+  ✔ Code quality - skipped mocha testing @done(21-07-09 09:22)
+  ☐ Object: the basics
+  ☐ Data types
+  ☐ Advanced working with functions
