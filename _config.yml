@@ -8,3 +8,5 @@ include:
   - jsNOTES.md
   - questions.md
   - learnJS.todo
+
+theme: jekyll-theme-hacker
