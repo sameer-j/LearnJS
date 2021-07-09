@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - jsNOTES.md
+  - questions.md
+  - learnJS.todo
+
+theme: jekyll-theme-hacker
