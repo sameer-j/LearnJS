@@ -1,13 +1,13 @@
 Learn:
   ☐ Arrow function (why??!!!!)
-  ☐ Function Expressions
+  ✔ Function Expressions @done(21-07-10 23:24)
   ☐ Context bind
   ☐ bind, apply, call
   ☐ Closure
   ☐ Currying function
   ☐ async await
   ☐ Promise
-  ☐ strict mode
+  ✔ strict mode @done(21-07-10 23:24)
   ☐ ! of null, undefined, 0, 1, NaN, string, string as a number, empty string, object and {}
   ✔ !! operator @done(21-07-04 21:11)
   ☐ setInverval and setTimeout with example : https://javascript.info/settimeout-setinterval
@@ -19,6 +19,6 @@ Javascript.info topics:
   ✔ An Introduction @done(21-07-09 09:22)
   ✔ Javascript Fundamentals @done(21-07-09 09:22)
   ✔ Code quality - skipped mocha testing @done(21-07-09 09:22)
-  ☐ Object: the basics
+  ✔ Object @started(21-07-09 09:23) @done(21-07-15 14:29) @lasted(6d5h6m23s)
   ☐ Data types
   ☐ Advanced working with functions
