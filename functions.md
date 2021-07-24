@@ -1,6 +1,6 @@
+# Functions <!-- omit in toc -->
 [Home](./README.md)
 
-# Functions <!-- omit in toc -->
 - [Basics](#basics)
 - [Arrow functions](#arrow-functions)
   
