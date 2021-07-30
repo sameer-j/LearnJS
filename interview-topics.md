@@ -7,4 +7,5 @@
   - Equating objects
 - Type conversion, specially involving objects
 - [Must practice questions](https://javascript.info/array-methods#tasks)
-
+- [Debounce](./functions/README.md#debounce)
+- [Throttle](./functions/README.md#throttle)

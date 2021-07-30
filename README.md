@@ -6,6 +6,8 @@ Learning JS
 [Important topics for interview](./interview-topics.md)  
 [Array methods cheatsheet](https://javascript.info/array-methods#summary)
 
+[setTimeout/setInterval](./functions/README.md#scheduling-settimeout-and-setinterval)
+
 Reference: https://javascript.info/
 
 Topics:
@@ -51,6 +53,7 @@ Topics:
     - [**Comparisons**](#comparisons)
     - [**Searching**](#searching)
     - [**Transforming and reordering array**](#transforming-and-reordering-array)
+    - [**Convert to Array**](#convert-to-array)
     - [Examples](#examples-1)
   - [Map](#map)
     - [**Loop**](#loop)
@@ -444,9 +447,9 @@ https://javascript.info/while-for
     break;
   ```
 
-## [Functions](./functions.md)
+## Functions
 
-- [check here](./functions.md)
+- [check here](./functions/README.md)
 
 ## Transpilers & Polyfills
 
@@ -1427,6 +1430,26 @@ Searching array of objects:
   let someUsers = users.filter(item => item.id < 3);
   alert(someUsers.length); // 2
   ```
+  ```js
+  function inBetween(a, b) {
+    return function(x) {
+      return x >= a && x <= b;
+    };
+  }
+  
+  let arr = [1, 2, 3, 4, 5, 6, 7];
+  alert( arr.filter(inBetween(3, 6)) ); // 3,4,5,6
+  ```
+  ```js
+  function inArray(arr) {
+    return function(x) {
+      return arr.includes(x);
+    };
+  }
+  
+  let arr = [1, 2, 3, 4, 5, 6, 7];
+  alert( arr.filter(inArray([1, 2, 10])) ); // 1,2
+  ```
 #### **Transforming and reordering array**
 
 - `arr.map(fn)`: applies fn on each element of the array and returns result as array, `whatever the function returns`
@@ -1523,6 +1546,35 @@ Searching array of objects:
   ```
   - if initial is not given, first array value is used as init
   - `reduceRight` goes right to left
+
+#### **Convert to Array**
+
+- spread syntax: works for any iterable
+  ```js
+  let str = "Hello";
+  
+  alert( [...str] ); // H,e,l,l,o
+  ```
+- Array.from: works on iterables and array-like objects
+  ```js
+  let str = "Hello";
+  
+  // Array.from converts an iterable into an array
+  alert( Array.from(str) ); // H,e,l,l,o
+  ```
+  ```js
+  // Unique Array
+  
+  function unique(arr) {
+    return Array.from(new Set(arr));
+  }
+  
+  let values = ["Hare", "Krishna", "Hare", "Krishna",
+    "Krishna", "Krishna", "Hare", "Hare", ":-O"
+  ];
+  
+  alert( unique(values) );
+  ```
 
 #### Examples
 
@@ -1799,6 +1851,8 @@ alert( unique(values) );
 https://javascript.info/weakmap-weakset
 
 ### Destructuring assignment
+
+*Also see `Spread syntax` under functions*
 
 #### **Array destructuring**
 
@@ -2367,6 +2421,7 @@ https://javascript.info/weakmap-weakset
 
 - [Exclude backreferences](https://javascript.info/json#exclude-backreferences)
   
+
 
 
 

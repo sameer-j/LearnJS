@@ -1,13 +1,15 @@
 Learn:
-  ☐ Arrow function (why??!!!!)
+  ✔ Arrow function (why??!!!!) @done(21-07-30 21:10)
   ✔ Function Expressions @done(21-07-10 23:24)
-  ☐ Context bind
-  ☐ bind, apply, call
-  ☐ Closure
+  ✔ debounce @done(21-07-30 00:55)
+  ✔ throttle @done(21-07-30 00:55)
+  ✔ Context bind @done(21-07-30 21:08)
+  ✔ bind, apply, call @done(21-07-30 21:08)
+  ✔ Closure @done(21-07-30 00:55)
   ☐ Currying function
   ☐ async await
   ☐ Promise
-  ☐ event loop with setInterval and setTimeout
+  ✔ event loop with setInterval and setTimeout @done(21-07-30 00:55)
   ✔ strict mode @done(21-07-10 23:24)
   ☐ ! of null, undefined, 0, 1, NaN, string, string as a number, empty string, object and {}
   ✔ !! operator @done(21-07-04 21:11)
@@ -24,5 +26,5 @@ Javascript.info topics:
   ✔ Data types @started(21-07-16 00:35) @done(21-07-24 14:23) @lasted(1w1d13h48m34s)
   ✔ modules @started(21-07-26 19:22) @done(21-07-27 19:22) @lasted(1d31s)
   ✔ error-handling @started(21-07-27 19:22) @done(21-07-27 21:32) @lasted(2h10m16s)
-  ☐ Advanced working with functions @started(21-07-24 21:15)
+  ✔ Advanced working with functions @started(21-07-24 21:15) @done(21-07-30 21:07) @lasted(5d23h52m39s)
   
