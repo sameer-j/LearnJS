@@ -325,6 +325,8 @@ alert( sum(0)(1)(2)(3)(4)(5) ); // 15
 
 ## Scheduling: setTimeout and setInterval
 
+**Must Watch**: [Event Loop Video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
 - **Always clear the setInterval/setTimeout functions** because of their memory usage.
 - not guarrenteed but minimum  time of execution
 - always runs at the end of the script

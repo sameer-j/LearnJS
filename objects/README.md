@@ -1,5 +1,7 @@
 # Objects <!-- omit in toc -->
 
+<!-- omit in toc -->
+## Topics
 - [Basics](#basics)
 - [Object references and copying](#object-references-and-copying)
 - [Garbage Collection](#garbage-collection)
@@ -127,6 +129,7 @@ https://javascript.info/object
   ```
 
 ## Object references and copying
+[Home](../README.md) | [Jump to Top](#topics)
 
 - _objects are stored and copied `by reference`, whereas primitive values: strings, numbers, booleans, etc – are always copied “as a whole value”._
 

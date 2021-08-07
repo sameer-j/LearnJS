@@ -10,18 +10,19 @@ Learning JS
 
 Reference: https://javascript.info/
 
-[Quick look on basics](https://javascript.info/javascript-specials)
+[Quick look on basics](https://javascript.info/javascript-specials)  
 Topics:
 1. [Fundamentals](./fundamentals/README.md)
-2. [Numbers and Strings](./numbers-strings/README.md)
-3. [JSON](./json/README.md)
-4. [Objects](./objects/README.md)
-5. [Map and Set](./map-set/README.md)
-6. [Arrays](./arrays/README.md)
-7. [Destructuring](./destructuring/README.md)
-8. [Functions](./functions/README.md)
-9. [Error Handling](./error-handling/README.md)
-10. [Modules](./modules/README.md)
-11. [Date](./date/README.md)
+2. [Promise](./promise/README.md)
+3. [Numbers and Strings](./numbers-strings/README.md)
+4. [JSON](./json/README.md)
+5. [Objects](./objects/README.md)
+6. [Map and Set](./map-set/README.md)
+7. [Arrays](./arrays/README.md)
+8. [Destructuring](./destructuring/README.md)
+9. [Functions](./functions/README.md)
+10. [Error Handling](./error-handling/README.md)
+11. [Modules](./modules/README.md)
+12. [Date](./date/README.md)
 
 
