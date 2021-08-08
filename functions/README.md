@@ -21,7 +21,9 @@
   - [func.call](#funccall)
 - [Debounce](#debounce)
 - [Throttle](#throttle)
-  - [bind](#bind)
+- [Bind](#bind)
+  - [Losing this](#losing-this)
+  - [bind](#bind-1)
   - [Partial function](#partial-function)
   - [Examples - Bind](#examples---bind)
   
@@ -550,7 +552,7 @@ setTimeout( () => f("c"), 500);
   
     return wrapper;
   }
-  ```
+    ```
 
 ## Bind
 

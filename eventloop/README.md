@@ -7,11 +7,14 @@ Ref:
 [Why Promises Are Faster Than setTimeout()?](https://dmitripavlutin.com/javascript-promises-settimeout/)  
 [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)  
 
-
+<!-- omit in toc -->
+## Topics 
 - [Intro](#intro)
 - [Example](#example)
 
 ## Intro
+[Home](../README.md) | [Jump to Top](#topics)
+
 - all asynchronous callbacks/tasks are executed after the script execution completes
 - Asynchronous callbacks:
   - setTimeout and similar
@@ -22,6 +25,7 @@ Ref:
 - Immediately after every macrotask, the engine executes all tasks from microtask queue, prior to running any other macrotasks or rendering or anything else.
 
 ## Example
+[Home](../README.md) | [Jump to Top](#topics)
 
 ```js
 setTimeout(function timeout() {

@@ -25,5 +25,6 @@ Topics:
 11. [Modules](./modules/README.md)
 12. [Date](./date/README.md)
 13. [Event Loop](./eventloop/README.md)
+14. [Prototype, Inheritance](./prototypes-inheritance/README.md)
 
 
