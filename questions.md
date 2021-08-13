@@ -18,5 +18,8 @@
   | keys converted to string| all types supported, even object |
   | loop: integer props sorted, then in creation order | creation order only |
 - Functions common across ds: objects, arrays, maps, sets
-- 
+- "\_\_proto__" vs constructor ".prototype" ?
+- class vs construtor function for creating objects
+- Why the functions are stored in prototype?
+  - Eg: String.prototype.replace()
 

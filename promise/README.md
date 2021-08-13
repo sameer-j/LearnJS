@@ -452,7 +452,7 @@ getSum(1, 2)
   f().then(alert); // 1
   ```
 - **`await` works only inside a async function and with a thenable object like promise**
-- Theawait makes JavaScript wait until that promise settles and returns its result.
+- The await makes JavaScript wait until that promise settles and returns its result.
 - await works as a alternative for `then`
 - Update: await now works at top-level (without async function) in modules
   ```js
@@ -516,6 +516,28 @@ getSum(1, 2)
   f().catch(alert); // TypeError: failed to fetch // (*)
   ```
 - worst case, `unhandledrejection` event handler
-- 
 
+Example - 
+```js
+async function fetchStatusCodes(urls) {
+  // const httpResponses = urls.map((url) => await fetch(url));
+  // ------------ SyntaxError: await needs to be in an async function
+  // const httpResponses = await urls.map(async (url) => fetch(url)); 
+  // ------------ await works on resolve promise, not simple array of promises
+  const httpResponses = await Promise.all(urls.map(async (url) => fetch(url)));
+  // ------------ works because Promise.all returns a thenable response with resolved promises
+  // and not just a simple array
+  // also, async isnt really needed here as fetch already returns a promise.
+  // const httpResponses = await Promise.all(urls.map((url) => fetch(url)));
+  return httpResponses.map((response) => response.status);
+}
 
+(async () => {
+  const statusCodes = await fetchStatusCodes([
+    "https://sameer-j.free.beeceptor.com",
+    "https://sameer-j.free.beeceptor.com/bar",
+    "https://sameer-j.free.beeceptor.com/baz"
+  ]);
+  console.log(statusCodes);
+})();
+```

@@ -14,6 +14,7 @@
   - [Examples](#examples-1)
 - [Native prototypes](#native-prototypes)
 - [Prototype Methods](#prototype-methods)
+- [For better understanding](#for-better-understanding)
 
 
 ## Prototypal inheritance
@@ -145,7 +146,7 @@ Important: https://javascript.info/prototype-inheritance#why-are-both-hamsters-f
 ## F.prototype
 [Home](../README.md) | [Jump to Top](#topics)
 
-- setting proto while creating object from constructor function by setting `prototype` property
+- setting proto **while creating object from constructor function** by setting `prototype` property
 
 ```js
 let animal = {
@@ -267,3 +268,8 @@ alert(rabbit.constructor === Rabbit); // false
 [Home](../README.md) | [Jump to Top](#topics)
 
 https://javascript.info/prototype-methods
+
+## For better understanding
+[Home](../README.md) | [Jump to Top](#topics)
+
+https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
