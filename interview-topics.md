@@ -9,3 +9,5 @@
 - [Must practice questions](https://javascript.info/array-methods#tasks)
 - [Debounce](./functions/README.md#debounce)
 - [Throttle](./functions/README.md#throttle)
+- Object.assign, spread and shallow copy
+  https://stackoverflow.com/questions/32925460/object-spread-vs-object-assign
